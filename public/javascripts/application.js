@@ -17,7 +17,7 @@ $(function() {
 });
 
 $('a.hack-on-twetter').click(function() {
-  $('textarea#status').val('@ben_h ');
+  $('textarea#status').val('@sj26 ');
   $('textarea#status').focus();
   return false;
 });
