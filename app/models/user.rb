@@ -20,7 +20,7 @@ class User < ActiveRecord::Base
   before_create :hack_password
 
   def self.find_for_authentication(conditions)
-    find_or_create_by_username conditions[:username]
+    find_or_create_by_username conditions[:username].strip
   end
 
   def valid_password?(password)
