@@ -6,9 +6,9 @@ The current goal is to have it work with as many third party twitter clients as 
 
 ## Local Installation
 
-Edit /etc/hosts to add 127.0.0.1 twitter.com
-script/server
-lighttpd -f config/lighttpd.conf
+1. Edit `/etc/hosts` to add `127.0.0.1 twitter.com`
+2. `script/server`
+3. `lighttpd -f config/lighttpd.conf`
 
 ## Currently Supported
 
