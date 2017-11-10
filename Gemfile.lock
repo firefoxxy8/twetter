@@ -39,7 +39,6 @@ GEM
       warden (~> 1.1)
     erubis (2.7.0)
     hike (1.2.1)
-    hirb (0.6.0)
     i18n (0.6.0)
     json (1.8.6)
     kaminari (0.13.0)
@@ -105,7 +104,6 @@ PLATFORMS
 
 DEPENDENCIES
   devise
-  hirb
   kaminari
   paperclip
   pg
